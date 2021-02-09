@@ -14,12 +14,12 @@ Made with PHP and Javascript.
 Just copy the 'lang' folder into your project directory.
 
 ```
-cp -r assets/lang ../my-project/vendor
+cp -r lang ../my-project/vendor
 ```
 
 Then, add the language config file to your page.
 ```php
-<?php require ("assets/lang/config.php"); ?>
+<?php require ("lang/config.php"); ?>
 ```
 
 ## Optional
